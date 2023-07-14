@@ -1,4 +1,4 @@
-//* ESERCIZIO FALLITO MALISSIMO
+//* ESERCIZIO FALLITO MALISSIMO NON C'è NIENTE DA LEGGERE MA L'HO MESSO COMUNQUE NEL REPOSITORY
 
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
