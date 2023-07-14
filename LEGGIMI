@@ -1,1 +1,3 @@
-
+ho avuto un sacco di errori, tralasciando quelli del browser, ad un certo punto è uscito fuori un ENOENT error dopo aver fatto l'npm  run dev,
+da lì mi si è fregato quasi tutto, ho dovuto ricreare un nuovo progetto, installare di nuovo tutto quanto e nonostante questo non mi leggeva più
+tailwind, infatti non c'è neanche un po' di stile se non in App
