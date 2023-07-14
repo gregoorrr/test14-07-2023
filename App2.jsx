@@ -11,7 +11,7 @@ const NotePreimpostate = [
 const Note = ({ giorno, note }) => {
   return (
     <div>
-      <strong>{giorno}:</strong> {note}
+      {giorno}:{note}
     </div>
   );
 };
@@ -23,12 +23,12 @@ const CalendarApp = () => {
 
   const handleNote = () => {
     if (selectedDay && noteText) {
-      const existingNoteIndex = notes.findIndex((note) => note.day === selectedDay);
+      const NoteIndex = notes.findIndex((note) => note.day === selectedDay);
 
-      if (existingNoteIndex !== -1) {
+      if (NoteIndex !== -1) {
        
         const updatedNotes = [...notes];
-        updatedNotes[existingNoteIndex] = { day: selectedDay, note: noteText };
+        updatedNotes[NoteIndex] = { day: selectedDay, note: noteText };
         setNotes(updatedNotes);
       } else {
         
@@ -77,14 +77,14 @@ const CalendarApp = () => {
       </div>
       <div>
         <h2>Calendario</h2>
-        <ol>
+        <ul>
           {Array.from({ length: 31 }, (_, index) => (
             <li key={index + 1}>
               {index + 1}:
               {notes.find((note) => note.day === index + 1)?.note || ''}
             </li>
           ))}
-        </ol>
+        </ul>
       </div>
     </div>
   );
