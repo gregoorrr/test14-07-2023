@@ -1,3 +1,10 @@
 ho avuto un sacco di errori, tralasciando quelli del browser, ad un certo punto è uscito fuori un ENOENT error dopo aver fatto l'npm  run dev,
-da lì mi si è fregato quasi tutto, ho dovuto ricreare un nuovo progetto, installare di nuovo tutto quanto e nonostante questo non mi leggeva più
-tailwind, infatti non c'è neanche un po' di stile se non in App
+da lì mi si è fregato quasi tutto, ho dovuto ricreare un nuovo progetto, installare di nuovo tutto quanto e nonostante questo, non mi veniva
+più letto tailwind, 
+infatti non c'è neanche un po' di stile, dopo la seconda volta che l'ho installato non so cosa è successo ma al posto di scaricarmi
+"tailwind.config.js" mi installava un altro package.json, sono arrivato ad averne 3 nello stesso progetto e quindi ne ho ricreato uno nuovo.
+Insomma ho perso una marea di tempo a cercare di risolvere degli errori.
+Mi dispiace per l'esercizio sul Router ma ho scoperto che a debuggare ti si fotte il cervello in pochissimo tempo. 
+voglio precisare che mi sono aiutato un sacco con internet, non sarei riuscito senza(non ho copiato, andavo leggendo e capendo 
+tutto quanto quello che mi serviva, è stato essenziale perchè sarò stato 3 ore e mezza a debuggare qualcosa per COMINCIARE a lavorare).
+detto questo, è stato ultra stancante, avrei potuto fare 10 volte meglio e senza aiuti se non avessi avuti certi problemi.
